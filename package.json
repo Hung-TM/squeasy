@@ -1,0 +1,23 @@
+{
+  "name": "squeasy",
+  "version": "1.0.0",
+  "description": "helpers for working with AWS SQS including an async iterator",
+  "main": "squeasy.js",
+  "keywords": [
+    "aws",
+    "sqs",
+    "async",
+    "iterator"
+  ],
+  "author": "jason@diamond.name",
+  "license": "MIT",
+  "peerDependencies": {
+    "aws-sdk": "^2.627.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.627.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
+}
