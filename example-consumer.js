@@ -11,8 +11,8 @@ async function consume(params) {
 }
 
 consume({
-  region: process.env.SQS_REGION,
-  profile: process.env.SQS_PROFILE,
-  endpoint: process.env.SQS_ENDPOINT,
-  QueueUrl: process.env.SQS_QUEUE_URL
+  region: "us-east-1",
+  profile: "default",
+  endpoint: "https://sqs.us-east-1.amazonaws.com/367988507966/spotlight-test",
+  QueueUrl: "https://sqs.us-east-1.amazonaws.com/367988507966/spotlight-test",
 });
